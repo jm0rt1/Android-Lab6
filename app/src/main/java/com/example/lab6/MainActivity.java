@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         IntentFilter filter = new IntentFilter("com.example.lab6.new_location");
         registerReceiver(br, filter);
+
     }
 
     public void updateLocation(View v){

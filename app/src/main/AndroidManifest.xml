@@ -21,7 +21,8 @@
         <service
             android:name=".aService"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="true"
+            android:foregroundServiceType="location"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
